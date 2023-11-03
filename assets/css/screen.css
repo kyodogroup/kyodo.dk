@@ -1,0 +1,224 @@
+/*
+ * IVORY Framework - http://weice.in/ivory
+ *
+ * Developed by Lakshmikanth Vallampati - kanth.vallampati@gmail.com
+ * Licensed under GPLv2
+ *
+ */
+
+/* kyōdō custom styles */
+body {
+  background-image: url(../img/main_bg_2560px.jpg);
+  background-repeat:none;
+  background-size: cover;
+  background-position: center center;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  height:100%;
+  width:100%;
+  position: absolute;
+  background-attachment: fixed;
+}
+
+
+.top {
+	width: 100%;
+	height: auto;
+	background-color: transparent;
+	padding: 10px 0;
+	color: #ffffff;
+	text-align: center;
+	/*text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.4);*/
+}
+
+
+h1.logo a {
+	display: block;
+  	width: 150px;
+  	margin:0 auto;
+  	padding: 10px 0;
+	position:relative;
+	background-image: url("../img/kyodo_lab_logo_white.svg");
+  	background-size: 100%;
+  	background-repeat: no-repeat;
+  	background-position: left center;
+  	text-indent: -119988px;
+  	overflow: hidden;
+}
+
+.hero-text {
+	margin: 130px 0;
+}
+
+
+.contact {
+	width: 100%;
+	height: auto;
+	background-color: transparent;
+	padding: 135px 0 0 0;
+	color: #ffffff;
+	text-align: center;
+	font-family: 'Exo', sans-serif;
+	font-family: 'Roboto', sans-serif;
+	font-weight: normal;
+	font-style: normal;
+	font-size: 1em;
+}
+
+.email {
+	color: #F4B556;
+	font-weight: bolder;
+	padding-bottom: 0.1em;
+	font-size: 1.4em;
+}
+
+
+
+/* ---- HTML RESET ---- */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	margin: 0; padding: 0; border: 0; outline: 0; font-size: 100%; font: inherit; vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, label, legend { display: block; }
+body { line-height: 1; }
+blockquote, q { quotes: none; }
+blockquote:before, blockquote:after, q:before, q:after { content: ''; content: none; }
+table { border-spacing: 0; }
+
+/* ---- Clearfixes ---- */
+.row:before,.row:after,.clearfix:before,.clearfix:after{content:'';display:table}
+.row:after,.clearfix:after{clear:both}
+.row,.clearfix{zoom:1}
+
+/* ---- GRID Layout ---- */
+*{box-sizing:border-box; -ms-box-sizing:border-box; -moz-box-sizing:border-box; -webkit-box-sizing:border-box;}
+body{margin:0 auto; color:#ffffff;}
+.grid{margin:0 auto; max-width:1200px; width:100%;} /* You can choose the grid 1200 or 1140 or 1024 or 960 as per your requirement */
+.g1140{margin:0 auto; max-width:1140px; width:100%;}
+.g1024{margin:0 auto; max-width:1024px; width:100%;}
+.g960{margin:0 auto; max-width:960px; width:100%;}
+.row{width:100%; margin:0 auto;}
+.c1{width:8.33%;}
+.c2{width:16.66%;}
+.c3{width:25%;}
+.c4{width:33.33%;}
+.c5{width:41.66%;}
+.c6{width:50%;}
+.c7{width:58.33%;}
+.c8{width:66.66%;}
+.c9{width:75%;}
+.c10{width:83.33%;}
+.c11{width:91.66%;}
+.c12{width:100%; min-height:1px; float:left; position:relative;}
+.c1-5{width:20%;}/* This column can be used as a one fifth of the row */
+.c1-8{width:12.5%;}/* This column can be used as a one eigth of the row */
+.c1,.c2,.c3,.c4,.c5,.c6,.c7,.c8,.c9,.c10,.c11,.c1-5,.c1-8 {min-height:1px; float:left; padding-left:10px; padding-right:10px; position:relative;}
+.c1.first,.c2.first,.c3.first,.c4.first,.c5.first,.c6.first,.c7.first,.c8.first,.c9.first,.c10.first,.c11.first,.c1-5.first,.c1-8.first {
+	padding-left: 0; position:relative;
+}
+.c1.last,.c2.last,.c3.last,.c4.last,.c5.last,.c6.last,.c7.last,.c8.last,.c9.last,.c10.last,.c11.last,.c1-5.last,.c1-8.last {
+	padding-right: 0; position:relative;
+}
+
+sub, sup {font-size: 60%; line-height: 0; position: relative; vertical-align: baseline;}
+sup {top: -0.5em;}
+sub {bottom: -0.25em;}
+
+/* ---- Misc ---- */
+.left {float: left;}
+.right {float: right;}
+.text-left {text-align: left;}
+.text-right {text-align: right;}
+.text-center {text-align: center;}
+.text-justify {text-align: justify;}
+.space-top {margin-top: 26px;}
+.space-bot {margin-bottom: 20px;}
+.space-htop {margin-top: 10px;}
+.space-hbot {margin-bottom: 10px;}
+.centered{float: none; margin: auto;}
+
+/* ---- Typography ---- */
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Exo', sans-serif;
+	font-family: 'Roboto', sans-serif;
+	font-weight: none;
+	font-style: normal;
+	color: #ffffff;
+	text-rendering: optimizeLegibility;
+	line-height: 1.1;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+h1 small, h2 small, h3 small, h4 small, h5 small, h6 small { font-size: 80%; color: #ffffff; }
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { font-weight: inherit; text-decoration:none; }
+h1 {font-size: 36px; line-height: 48px;}
+h2 {font-size: 48px; line-height: 58px; font-weight: bolder;}
+h3 {font-size: 30px; line-height: 36px; font-weight: bolder;}
+h4 {font-size: 24px; line-height: 32px;}
+h5 {font-size: 21px; line-height: 27px;}
+h6 {font-size: 18px; line-height: 27px;}
+
+a {
+	color: inherit;
+	text-decoration: underline;
+	line-height: inherit;
+}
+
+a:hover {color: #ffffff; text-decoration: none;}
+a:focus {color: #ffffff; outline: none; }
+
+p {margin-bottom: 0px; padding:0; font-size: 1.2em; line-height: 1.3em; font-family: 'Exo', sans-serif;font-family: 'Roboto', sans-serif;}
+p span {color: #46aae3; }
+p a, p a:visited {line-height: inherit; }
+
+em, i { font-style: italic; line-height: inherit; }
+strong, b { font-weight: bold; line-height: inherit; }
+small { font-size: 70%; line-height: inherit; }
+
+hr { border: solid #ddd; border-width: 1px 0 0; clear: both; margin: 20px 0 20px; height: 0; }
+
+/* ---- Lists ---- */
+ul, ol, dl {
+	font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	line-height: 1.6;
+	margin-bottom: 8px;
+	list-style-position: inside;
+	text-indent: 5px;
+	color: #666666;
+}
+ul li ul, ul li ol { margin-left: 10px; margin-bottom: 0; }
+ul.square, ul.circle, ul.disc { margin-left: 12px; }
+ul.square { list-style-type: square; }
+ul.square li ul { list-style: inherit; }
+ul.circle { list-style-type: circle; }
+ul.circle li ul { list-style: inherit; }
+ul.disc { list-style-type: disc; }
+ul.disc li ul { list-style: inherit; }
+ul.no-bullet { list-style: none; }
+ul.large li { line-height: 21px; }
+ol { margin-left: 10px; }
+ol li ul, ol li ol { margin-left: 10px; margin-bottom: 0; }
+dl dt{font-size:16px;}
+dl dd{margin-left: 15px;}
+
+
+/* Media query for 960 Screens - sets nested grids to 100% */
+@media only screen and (max-width:960px){
+	.row .row .c1,.row .row .c2,.row .row .c3,.row .row .c4,.row .row .c5,.row .row .c6,.row .row .c7,.row .row .c8,.row .row .c9,.row .row .c10,.row .row .c11,.row .row .c12,.row .row .c1-5,.row .row .c1-8{width:100%;margin-bottom:20px;margin-left:0px;margin-right:0px; }
+	.row .row > div:last-child{margin-bottom:0 !important}
+  .responsive-center {text-align: center;}
+}
+
+/* Media query for iPad and tablets */
+@media handheld, only screen and (max-width: 768px), only screen and (max-device-width: 768px) and (orientation:portrait){
+	body{font-size:90%}
+	.row{margin-bottom:0!important}
+	.c1,.c2,.c3,.c4,.c5,.c6,.c7,.c8,.c9,.c10,.c11,.c12,.c1-5,.c1-8{width:100%;margin-right:0;margin-left:0;margin-bottom:20px; padding:0 10px;}
+	.c1.first,.c2.first,.c3.first,.c4.first,.c5.first,.c6.first,.c7.first,.c8.first,.c9.first,.c10.first,.c11.first,.c1-5.first,.c1-8.first {
+		padding-left: 10px; position:relative;
+	}
+	.c1.last,.c2.last,.c3.last,.c4.last,.c5.last,.c6.last,.c7.last,.c8.last,.c9.last,.c10.last,.c11.last,.c1-5.last,.c1-8.last {
+		padding-right: 10px; position:relative;
+	}
+  .responsive-center {text-align: center;}
+}

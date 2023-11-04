@@ -131,7 +131,7 @@ sub {bottom: -0.25em;}
 .text-center {text-align: center;}
 .text-justify {text-align: justify;}
 .space-top {margin-top: 26px;}
-.space-bot {margin-bottom: 20px;}
+.space-bot {margin-bottom: 30px;}
 .space-htop {margin-top: 10px;}
 .space-hbot {margin-bottom: 10px;}
 .centered{float: none; margin: auto;}
